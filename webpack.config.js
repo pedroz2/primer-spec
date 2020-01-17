@@ -24,7 +24,7 @@ const AVAILABLE_SUBTHEMES = [
 
 const PROD_ENV = 'prod';
 const DEV_URL = 'http://localhost:4000';
-const PROD_URL = 'https://eecs485staff.github.io/primer-spec';
+const PROD_URL = 'https://pedroz2.github.io/primer-spec';
 const VERSION = fs.readFileSync(path.resolve(__dirname, 'VERSION'), 'utf-8');
 
 module.exports = env => ({
